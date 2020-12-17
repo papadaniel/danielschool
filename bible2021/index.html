@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2021 예인교회</title>
+        <style type="text/css">
+        p{
+            text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        <script>
+            var pic = ["word_201130.jpg", 
+                        "word_201207.jpg", 
+                        "word_201212.jpg", 
+                        "word_201217.jpg" ];
+            function selectHandler() {
+                var a = 3;
+                a = Math.floor(Math.random()*10) % 4;
+                //document.write(a + "<br>");
+                document.write("<p><img src='" + pic[a] + "''.jpg'></p>");
+            }
+        </script>
+        <p>
+            <img src="3movingdots.gif"/>
+            <input type="button" value="2021년 성구 받기" onclick="selectHandler()">
+        </p>
+    </body>
+</html>
