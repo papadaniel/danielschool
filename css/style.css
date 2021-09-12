@@ -200,10 +200,11 @@ img {
 }
 /** Adbox **/
 #adbox {
-	background: url(../images/bg-adbox_475.png) no-repeat left top;
+	background-color:white;
 	width: 852px;
 	margin: 0 auto;
-	padding: 4px 5px 18px;
+	margin-bottom: 5px;
+	padding: 5px 5px 2px 5px;
 }
 #adbox p {
 	font-size: 16px;
@@ -619,4 +620,3 @@ hr {
 #connect a.googleplus:hover {
 	background-position: 0 -197px;
 }
-#tbl 
