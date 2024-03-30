@@ -5,7 +5,7 @@ body {
 	margin: 0;
 }
 #background {
-	background: url(../images/bg-pattern.jpg) repeat-x center top;
+	background: #ffffff; /* url(../images/bg-pattern.jpg) repeat-x center top; */
 	min-height: 1318px;
 }
 #page {
